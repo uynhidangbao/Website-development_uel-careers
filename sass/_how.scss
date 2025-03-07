@@ -1,0 +1,59 @@
+.how {
+    margin-top: 95px;
+    margin-bottom: 235px;
+    &-heading {
+        font-size: 40px;
+        font-weight: 700;
+        color: $primary-color;
+        text-align: center;
+        margin-bottom: 120px;
+    }
+    &-container {
+        margin: 0 100px;
+
+    }
+    &-menu {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    &-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    &-number {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        background-color: $primary-color;
+        border-radius: 100rem;
+        margin: 0 auto;
+        padding: 10px 15.5px;
+        display: inline-block;
+        position: relative;
+        transform: translateY(50%);
+    }
+    &-board {
+        background: #FFFFFF;
+        /* 18 - dp new 2 */
+
+        box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.02), 0px 4px 28px rgba(0, 0, 0, 0.04);
+        border-radius: 10px;
+    }
+    &-content {
+        margin-top: 68px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: $primary-color;
+    }
+    &-detail{
+        margin: 45px 56px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 17px;
+        color: #666666;
+    }
+}

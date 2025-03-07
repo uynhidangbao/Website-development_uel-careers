@@ -1,0 +1,39 @@
+.MBTI {
+    background: rgba(228, 243, 255, 0.22);
+    padding: 108px 56px;
+    &-container {
+        background: #FFFFFF;
+        box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.02), 0px 4px 28px rgba(0, 0, 0, 0.04);
+        border-radius: 20px;
+        display: flex;
+        padding: 68px 74px;
+        gap: 114px;
+    }
+    &-logo {
+        max-width: 438px;
+        width: 100%;
+    }
+    &-content {
+        margin: auto;
+    }
+    &-heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: $primary-color;
+    }
+    &-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: $primary-color;
+        margin-top: 6px;
+        margin-bottom: 14px;
+    }
+    &-detail {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        color: #212121;
+    }
+}

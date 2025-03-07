@@ -1,0 +1,31 @@
+.sumenh {
+    background-color: #FFFFFF;
+    &-container {
+        margin: 0 130px;
+        margin-top: 84px;
+        margin-bottom: 106px;
+        display: flex;
+        gap: 194px;
+    }
+    &-content {
+        margin: auto;
+    }
+    &-heading {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: $primary-color;
+        margin-bottom: 36px;
+    }
+    &-detail {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        
+        color: #212121;
+    }
+    &-logo {
+        max-width: 528px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+.nhatuyendung {
+    &-header {
+        display: flex;
+        border-bottom: 0.5px solid #9E9E9E;
+        margin-bottom: 52px;
+    }
+    &-heading_c {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: $primary-color;
+        border-bottom: 2px solid $primary-color;
+        padding-bottom: 15px;
+        padding-right: 180px;
+        padding-left: 30px;
+    }
+    &-heading {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        color: $subtext1-color;
+        padding-bottom: 15px;
+        padding-right: 150px;
+        padding-left: 30px;
+    }
+    &-col2 {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        margin-bottom: auto;
+    }
+}
+
+

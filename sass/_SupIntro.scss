@@ -1,0 +1,52 @@
+.SupIntro{
+    &-container {
+        height: 630px;
+        margin: 0 auto;
+    }
+    &-logo {
+        margin: 0 auto;
+    }
+    &-navigation {
+        background: #FFFFFF;
+    /* 24 dp */
+
+        box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.08), 0px 9px 46px rgba(0, 0, 0, 0.04), 0px 11px 15px rgba(0, 0, 0, 0.09);
+        border-radius: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1030px;
+        width: 100%;
+        gap: 50px;
+        padding: 59px 178px;
+        margin: auto;
+        transform: translateY(-50%);
+    }
+    &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 115px;
+    }
+    &-icon {
+        width: 115px;
+        margin: auto;
+        padding-left: 100px;
+    }
+    &-title {
+        font-size: 16px;
+        font-weight: 500;
+        color: $primary-color;
+        padding-top: 25px;
+        margin: auto;
+    }
+    &-subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        color: #9E9E9E;
+        padding-top: 25px;
+        margin: auto;
+    }
+   
+
+}

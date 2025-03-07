@@ -1,0 +1,124 @@
+.hero {
+    &-container {
+        margin: 0 65px;
+        margin-bottom: 200px;
+    }
+    &-background {
+        position: absolute;
+        z-index: -1;
+        width: 1440px;
+        width: 100%;
+        left: 0px;
+        top: 150px;
+    }
+    &-heading {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: $primary-color;
+        margin-top: 180px;
+        margin-bottom: 25px;
+    }
+}
+
+.form {
+    &-container {
+        display: flex;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.08), 0px 9px 46px rgba(0, 0, 0, 0.04), 0px 11px 15px rgba(0, 0, 0, 0.09);
+        border-radius: 58px;
+        width: 893px;height: 98px;
+        margin: 0 auto;
+        padding: 15px 29px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-entry {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        font-family: $font;
+        border: none;
+        width: 332px;
+    }
+    &-selections {
+        display: flex;
+        gap: 65px;
+        align-items: center;
+        
+    }
+    &-selection {
+        display: flex;
+        align-items: center;
+        max-width: 177px;
+    }
+    
+    &-locations {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        font-family: $font;
+        border: none;
+        border-radius: 58px;
+        max-width: 146px;
+    }
+    &-categories {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        font-family: $font;
+        border: none;
+        border-radius: none;
+        max-width: 146px;
+    }
+    &-selector {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        font-family: $font;
+    }
+    
+    &-icon1 {
+        font-size: 20px;
+        
+    }
+    &-icon2 {
+        
+    }
+    &-timkiem {
+        background: #0A426E;
+        box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.08), 0px 9px 46px rgba(0, 0, 0, 0.04), 0px 11px 15px rgba(0, 0, 0, 0.09);
+        border-radius: 58px;
+        padding: 20px 28px;
+        border: none;
+        margin: 10px 0px;
+        transform: translateX(70%);
+    }
+    &-label {
+        position: absolute;
+        right: 247px;
+        transform: translateY(35%);
+        pointer-events: none;
+    } 
+    &-button_submit {
+        background-color: $primary-color;        
+        width: 67px;height: 67px;
+        font-size: 45px;
+        border-radius: 100rem;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        
+    }
+   
+}
+.form-button_submit:hover {
+    background-color: #E4F3FF;
+    color: $primary-color;
+    transition: linear 0.2s;
+}

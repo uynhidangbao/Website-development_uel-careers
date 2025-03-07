@@ -1,0 +1,266 @@
+.ungtuyen {
+    &-container {
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        gap: 62px;
+        width: 1127px;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    &-entry {
+        background: #FFFFFF;
+        
+    }
+    &-text {
+        border: none;
+        outline: none;
+        font-weight: 300;
+        font-size: 20px;
+        color: $subtext1-color;
+        border: 1px solid #9E9E9E;
+        border-radius: 10px;
+        padding: 18px;
+        max-width: 1127px;
+    }
+    &-text1 {
+        font-weight: 300;
+        font-size: 20px;
+        color: $subtext1-color;
+    }
+    &-birth {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-dates {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 75px;
+    }
+    &-date {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #9E9E9E;
+        border-radius: 100rem;
+        padding: 9px 27px;
+        font-size: 20px;
+        color: $subtext1-color;
+        cursor: pointer;
+        width: 233px;
+    }
+    
+    &-major {
+        display: flex;
+        justify-content: space-between;
+        
+        border-radius: 100rem;
+        padding: 9px 27px;
+        font-size: 20px;
+        color: $primary-color;
+        background-color: #E4F3FF;
+        cursor: pointer;
+        width: 544px;
+    }
+    &-contacts {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 39px;
+    }
+    &-uploads {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    &-upload {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 37px;
+        align-items: center;
+        border: 1px solid #9E9E9E;
+        border-radius: 10px;
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        color: $subtext1-color;
+    }
+    &-title {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    &-detail {
+        font-weight: 300;
+        font-size: 13px;
+    }
+    &-button {
+        font-size: 20px;
+        line-height: 23px;
+        font-weight: 500;
+        color: #FFFFFF;
+        background-color: $primary-color;
+        padding: 13px 51px;
+        border-radius: 100rem;
+        cursor: pointer;
+    }
+    &-links {
+        display: flex;
+        gap: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #9E9E9E;
+        max-width: 478px;
+    }
+    &-privacy {
+        display: flex;
+        gap: 9px;
+        font-weight: 300;
+        font-size: 20px;
+        align-items: center;
+        color: $subtext1-color;
+    }
+    &-highlight {
+        color: $primary-color;
+    }
+    &-checkbox {
+        width: 18px; height: 18px;
+    }
+    &-notifications1 {
+        display: none;
+    }
+    &-notifications2 {
+        display: none;
+    }
+    &-text2 {
+        font-weight: 300;
+        font-size: 16px;
+        max-width: 135px;
+        margin-top: 18px;
+        margin-left: 8px;
+        margin-bottom: 7px;
+    }
+    &-icon2 {
+        width: 16px;height: 16px;
+        background-color: #69BEFF;
+        border-radius: 100rem;
+        margin-bottom: auto;
+        font-size: 0px;
+    }
+    &-icon3 {
+        width: 16px;height: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $primary-color;
+        background-color: #E4F3FF;
+        border-radius: 100rem;
+        margin-bottom: auto;
+        
+    }
+    &-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-bottom_checkboxs {
+        display: flex;
+        gap: 26px;
+    }
+    
+    &-notification1 {
+        display: none;
+    }
+    &-notification2 {
+        display: none;
+    }
+    &-submits {
+        display: flex;
+        gap: 20px;
+    }
+    &-back {
+        width: 130px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        color: $subtext1-color;
+        padding: 16px 0px;
+    }
+    &-submit {
+        padding: 16px 40px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: $primary-color;
+        border-radius: 100rem;
+        cursor: pointer;
+        transition: linear 0.2s;
+    }
+}
+
+.ungtuyen-submit:hover {
+    background-color: #E4F3FF;
+    color: $primary-color;
+}
+.ungtuyen-notification1.active {
+    display: flex;
+    border: 1px solid #9E9E9E;
+    border-radius: 10px;
+    width: 184px; height: 79px;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: $primary-color;
+    cursor: pointer;
+}
+.ungtuyen-notification2.active {
+    display: flex;
+    border: 1px solid #9E9E9E;
+    border-radius: 10px;
+    width: 184px; height: 79px;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: $primary-color;
+    cursor: pointer;
+}
+
+.ungtuyen-notifications1.active {
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    width: 184px; height: 79px;
+    padding: 8px;
+    color: $primary-color;
+    background-color: #E4F3FF;
+    cursor: pointer;
+}
+.ungtuyen-notifications2.active {
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    width: 184px; height: 79px;
+    padding: 8px;
+    color: $primary-color;
+    background-color: #E4F3FF;
+    cursor: pointer;
+}
+
+.ungtuyen-notifications1:hover {
+    background-color: $primary-color;
+    border: none;
+    color: #FFFFFF;
+}
+.ungtuyen-notifications2:hover {
+    background-color: $primary-color;
+    border: none;
+    color: #FFFFFF;
+}
+.ungtuyen-notification1:hover {
+    background-color: $primary-color;
+    border: none;
+    color: #FFFFFF;
+}
+.ungtuyen-notifications2:hover {
+    background-color: $primary-color;
+    border: none;
+    color: #FFFFFF;
+}

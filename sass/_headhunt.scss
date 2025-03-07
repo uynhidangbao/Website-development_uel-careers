@@ -1,0 +1,30 @@
+.headhunt{
+    margin: 56px;
+    padding-top: 210px;
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 146px;
+    }
+    &-content {
+        width: 100%;
+        max-width: 520px;
+    }
+    &-heading {
+        font-size: 48px;
+        font-weight: 700;
+        color: $primary-color;
+        line-height: calc(56/50);
+    }
+    &-desc {
+        margin-top: 37px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: calc(28/24);
+    }
+    
+}
+.button {
+    margin-top: 36px;
+}

@@ -1,0 +1,89 @@
+.FAQs {
+    &-heading {
+        margin-top: 90px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        color: $primary-color;
+    }
+    &-container {
+        margin: 0 100px;
+        display: flex;
+    }
+    &-lines {
+        padding-left: 17px;
+        max-width: 1250px;
+        width: 100%;   
+    }
+    &-items {
+        position: absolute;
+    }
+    &-budgets {
+        max-width: 37px;
+        width: 100%;
+    }
+    &-content{
+        margin: 25px 116px;
+        margin-bottom: 140px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    &-more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+        margin: 25px auto;
+        margin-bottom: 125px;
+    }
+    &-text {
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &-down {
+        color: $primary-color;
+    }
+    &-searchbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-search_button {
+        color: #FFFFFF;
+    }
+}
+.form {
+    &-search {
+        width: 1100px;
+        height: 70px;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.08), 0px 9px 46px rgba(0, 0, 0, 0.04), 0px 11px 15px rgba(0, 0, 0, 0.09);
+        border-radius: 48px;
+        border: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 25px 42px;
+        margin-top: 70px;
+        margin-bottom: 100px;
+        font-family: $font;
+    }
+    &-searching {
+        position: absolute;
+        background: #0A426E;
+        border-radius: 58px;
+        border: none;
+        padding: 20px 24px;
+        color: #0A426E;
+        right: 100px;
+        transform: translateY(140%);
+    }
+    
+    &-icon {
+        position: absolute;
+        right: 100px;
+        transform: translateY(164%);
+        pointer-events: none;
+    }
+}
+

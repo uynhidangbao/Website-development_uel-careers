@@ -1,0 +1,82 @@
+.testing {
+    padding-bottom: 100px;
+    &-heading {
+        padding: 50px 100px;
+        padding-top: 125px;
+        background: rgba(228, 243, 255, 0.22);
+        display: flex;
+        justify-content: space-between;
+    }
+    &-time {
+        display: flex;
+        gap: 18px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    &-icon {
+        max-width: 46px;
+        width: 100%;
+        max-height: 46px;
+        height: 100%;
+    }
+    &-text {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: $primary-color;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    &-container {
+        display: flex;
+        flex-direction: column;
+        margin: 90px 100px;
+        margin-bottom: 48px;
+        gap: 55px;       
+    }
+    &-item {
+        display: flex;
+        gap: 50px;
+    }
+    &-number {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: $primary-color;
+    }
+    &-detail {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #212121;
+    }
+    &-grading {
+        max-width: 597px;
+        width: auto;
+        max-height: 15px;
+        height: auto;
+    }
+    &-button1 {
+        background: #E4F3FF;
+        border-radius: 36px;
+        padding: 12px 48px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: $primary-color;
+    }
+    &-button2 {
+        background: #0A426E;
+        border-radius: 36px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        padding: 12px 38px;      
+    }
+    &-buttons {
+        display: flex;
+        gap: 16px;
+        margin-left: 800px;
+    }
+}

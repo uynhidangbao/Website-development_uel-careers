@@ -1,0 +1,88 @@
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    line-height: 1;
+    font-family: $font;
+    color: $text-color;
+    font-weight: 300;
+}
+.button{
+    display: inline-block;
+    padding: 21px 52px;
+    border-radius: 28px;
+    font-family: $font;
+    line-height: 1;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    &--primary {
+        font-weight: 500px ;
+        background-color: $primary-color;
+        color: white;
+    }
+    &--primary1 {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 12px 26px;
+    }
+    &--primary2 {
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #E4F3FF;
+        color: $primary-color;
+        padding: 8px 28px;
+    }
+    &--outline1 {
+        background-color: transparent;
+        color: $primary-color;
+        font-weight: 700;
+        border: 2px solid;
+    }
+    &--outline2 {
+        background-color: transparent;
+        color: #FA9F16;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+    &-minimize {
+        display: flex;
+        font-weight: 500;
+        font-size: 20px;
+        color: $subtext1-color;
+        align-items: center;
+        gap: 13.5px;
+        cursor: pointer;
+    }
+}
+footer {
+    line-height: 1;
+    font-family: $font;
+    color: white;
+}
+.back {
+    margin-right: auto;
+    &-button {
+        display: flex;
+        gap: 6px;
+        margin-top: 70px;
+        margin-left: 56px;
+        margin-right: auto;
+    }
+    &-text {
+        font-size: 16px;
+        font-weight: 500;
+        color: $subtext1-color;
+    }
+    &-icon {
+        color: $subtext1-color;
+        font-size: 16px;
+    }
+}

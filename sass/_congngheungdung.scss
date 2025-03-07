@@ -1,0 +1,42 @@
+.congngheungdung {
+    background: rgba(228, 243, 255, 0.22);
+    &-heading {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: $primary-color;
+        margin-bottom: 58px;
+        padding-top: 75px;
+    }
+    &-container {
+        margin: 0 169px;
+        display: flex;
+        gap: 100px;
+    }
+    &-items {
+        gap: 100px;
+        margin: 0 auto;
+        max-width: 209px;
+        width: 100% ;
+    }
+    &-logo {
+        max-width: 144px;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    &-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: $primary-color;
+        margin-bottom: 12px;
+    }
+    &-detail {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        color: #212121;
+        margin-bottom: 74px;
+    }
+}

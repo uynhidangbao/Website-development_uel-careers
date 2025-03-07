@@ -1,0 +1,63 @@
+.doitac {
+    background: rgba(228, 243, 255, 0.22);
+    &-heading {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: $primary-color;
+        margin-bottom: 30px;
+        padding-top: 38px;
+    }
+    &-container {
+        margin: 0 123px;
+        margin-top: 77px;
+    }
+    &-local {
+        margin-bottom: 114px;
+    }
+    &-titles {
+        display: flex;
+    }
+    &-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: $primary-color;
+    }
+    &-button {
+        margin-left: 37px;
+        transform: translateY(-50%);
+    }
+    &-items {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 69px;
+    }
+    &-item {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
+    &-logo {
+        max-width: 248px;
+        padding-top: 65px;
+        margin: auto auto;
+    }
+    &-detail {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #212121;
+        margin-top: 27px;
+        padding-top: auto ;
+    }
+    &-inter {
+        padding-bottom: 141px;
+    }
+    &-button2 {
+        margin-left: 87px;
+        transform: translateY(-50%);
+    }
+}

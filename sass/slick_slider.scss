@@ -1,0 +1,283 @@
+.slick-slider {
+    background-color: inherit;
+}
+
+.timviec2-container .slick-prev {
+    font-size: 0px;
+    z-index: 0;
+}
+.timviec2-container .slick-next {
+    position: absolute;
+    z-index: 2;
+    transform: translateY(-400%);
+    left: 70px;
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 100rem;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: #666666;
+    transition: all 0.2s linear;
+}
+.timviec2-container .slick-next:hover {
+    color: $text-color;
+}
+.slick-prev:hover {
+    color: $text-color;
+}
+.sukien4-container .slick-dots {
+    display: flex !important;
+    position: absolute;
+    left: 42%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: translateY(-350%);
+}
+.slick-dots button {
+    font-size: 0px;
+    width: 15px; height: 15px;
+    border-radius: 100rem;
+    outline: solid 0.5px #666666;
+    border: none;
+    background-color: #FFFFFF;
+}
+.slick-dots .slick-active button {
+    background-color: $primary-color;
+}
+.sukien3-container .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.sukien3-container .slick-slider {
+    background-color: inherit;
+}
+.sukien4-container .slick-dots {
+    margin-top: 120px;
+}
+
+.ctyhangdau5-container .slick-prev {
+    font-size: 0px;
+    z-index: -1;
+}
+.ctyhangdau5-container .slick-next {
+    position: absolute !important;
+    z-index: 2;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: #666666;
+    transition: all 0.2s linear;
+    left: -70px;
+    transform: translateY(-400%);
+}
+.ctyhangdau5-container .slick-next:hover {
+    color: $primary-color;
+}
+
+.cungnhinlai-container .slick-prev {
+    font-size: 0px;
+    z-index: -1;
+}
+.cungnhinlai-container .slick-next {
+    position: absolute !important;
+    z-index: 2;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: #666666;
+    transition: all 0.2s linear;
+    left: -70px;
+    top: 150px
+}
+.cungnhinlai-container .slick-next:hover {
+    color: $primary-color;
+}
+
+.cungnhinlai2-container .slick-prev {
+    font-size: 0px;
+    z-index: -1;
+}
+.cungnhinlai2-container .slick-next {
+    position: absolute !important;
+    z-index: 2;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: #666666;
+    transition: all 0.2s linear;
+    left: -70px;
+    top: 150px
+}
+.cungnhinlai2-container .slick-next:hover {
+    color: $primary-color;
+}
+.chitietcongviec-col1_info2_mtlv_container .slick-next {
+    font-size: 36px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: $primary-color;
+    background-color: #E4F3FF;
+    border-radius: 100rem;
+    transition: all 0.2s linear;
+    padding-top: 7px ;
+    padding-right: 2px;
+    position: absolute;
+    top: 28px;
+    transform: translateX(-60px);
+}
+.chitietcongviec-col1_info2_mtlv_container .slick-next:hover {
+    background-color: $primary-color;
+    color: #FFFFFF;
+}
+.chitietcongviec-col1_info2_mtlv_container .slick-prev {
+    font-size: 0px;
+}
+
+.congviecbansethich-container .slick-next {
+    font-size: 36px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: $primary-color;
+
+    margin-left: 103px;
+    transform: translateY(-130px);
+    position: absolute;
+}
+.congviecbansethich-container .slick-prev {
+    font-size: 36px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: $primary-color;
+    position: absolute;
+    margin-left: auto;
+    z-index: 2;
+    right: 56px;
+    transform: translateY(70px);
+}
+.profile_gv-col2_section2_container .slick-prev {
+    font-size: 0px;
+}
+.profile_gv-col2_section2_container .slick-next {
+    border: none;
+    background-color: inherit;
+    font-size: 54px;
+    color: #999999;
+    position: absolute;
+    transform: translateX(-60px);
+    top: 100px;
+}
+
+.profile_gv-col2_section6_container .slick-prev {
+    font-size: 0px;
+}
+.profile_gv-col2_section6_container .slick-next {
+    border: none;
+    background-color: inherit;
+    font-size: 54px;
+    color: #999999;
+    position: absolute;
+    transform: translateX(-60px);
+    top: 100px;
+}
+.thugioithieu-popup2_item_container .slick-dots {
+    display: flex !important;
+    gap: 8px;
+    justify-content: center;
+}
+.thugioithieu-popup2_item_container .slick-dots button{
+    width: 32px; height: 32px;
+    font-size: 16px;
+    color: $subtext1-color;
+    border: 0.5px solid #666666;
+    outline: none;
+    
+}
+.thugioithieu-popup2_item_container .slick-dots .slick-active button {
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+.thugioithieu-popup2_item_container .slick-prev {
+    font-size: 16px;
+    width: 32px; height: 32px;
+    border: 0.5px solid #666666;
+    top: 84%;
+    margin-left: 173px;
+    border-radius: 100rem;
+    background-color: inherit;
+    color: $subtext1-color;
+    position: absolute;
+    transform: translateX(70px);
+}
+.thugioithieu-popup2_item_container .slick-next {
+    font-size: 16px;
+    width: 32px; height: 32px;
+    border: 0.5px solid #666666;
+    border-radius: 100rem;
+    background-color: inherit;
+    padding-right: 1px;
+    padding-top: 3px;
+    color: $subtext1-color;
+    margin-left: 81px;
+    position: absolute;
+    z-index: 2;
+    top: 84.5%;
+}
+
+.profile_dn-lsut_col3_section1_container .slick-next {
+    width: 48px;height: 48px;
+    font-size: 24px;
+    border-radius: 100rem;
+    color: $primary-color;
+    background-color: inherit;
+    outline: none;
+    border: 0.5px solid #666666;
+    padding-right: 4px;
+    padding-top: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 27.5px;
+    transform: translateX(60px);
+}
+.profile_dn-lsut_col3_section1_container .slick-prev {
+    width: 48px;height: 48px;
+    font-size: 24px;
+    border-radius: 100rem;
+    color: $primary-color;
+    background-color: inherit;
+    outline: none;
+    border: 0.5px solid #666666;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 27.5px;
+    transform: translateX(114px);
+}

@@ -1,0 +1,35 @@
+.questions {
+    background-color: #FFFFFF;
+    &-container {
+        padding: 108px 100px;
+        padding-bottom: 106px;
+        display: flex;
+        gap: 140px;
+    }
+    &-item {
+        display: flex;
+        gap: 40px;
+    }
+    &-logo {
+        max-width: 114px;
+        width: 100%;
+        margin: auto;
+    }
+    &-content {
+        margin: auto;
+        gap: 19px;
+    }
+    &-title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 38px;
+        color: $primary-color;
+    }
+    &-detail {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #666666;
+    }
+}

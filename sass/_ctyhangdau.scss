@@ -1,0 +1,194 @@
+.ctyhangdau1 {
+    &-container {
+        background-color:rgba(228, 243, 255, 0.42);
+        padding: 169px 115px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        max-width: 539px;
+    }
+    &-heading {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: $primary-color;
+    }
+    &-button1 {
+        background-color: $primary-color;
+        border-radius: 100rem;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 12px 29px;
+        color: #FFFFFF;
+    }
+    &-button2 {
+        background-color: #E4F3FF;
+        border-radius: 100rem;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 12px 29px;
+        color: $primary-color;
+    }
+    &-buttons {
+        display: flex;
+        gap: 16px;
+        margin-top: 10px;
+    }
+    &-logo {
+        max-width: 528px;
+    }
+    &-icon {
+        font-size: 48px;
+        width: 64px; height: 64px;
+        background-color: $primary-color;
+        border-radius: 100rem;
+        color: #FFFFFF;
+        padding-top: 8px;
+        padding-left: 8px;
+        margin: auto;
+        transform: translateY(-50%);
+    }
+    &-icons {
+        color: #FFFFFF;
+    }
+}
+
+.ctyhangdau2 {
+    &-links {
+        display: flex;
+        gap: 6px;
+        margin-left: 115px;
+        color: $subtext1-color;
+    }
+    &-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    &-icon {
+        padding-top: 1px;
+    }
+    &-heading {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        color: $primary-color;
+        margin-top: 34px;
+        margin-bottom: 67px;
+    }
+}
+
+.ctyhangdau3 {
+    background: rgba(228, 243, 255, 0.22);
+    &-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 90px 160px;
+        place-items: center;
+    }
+    &-item {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        width: 203px;
+    }
+    &-icon {
+        width: 60px; height: 60px;
+        font-size: 60px;
+        color: $primary-color;
+        margin-bottom: 26px;
+    }
+    &-title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: $primary-color;
+        margin-bottom: 19px;
+    }
+    &-detail {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: $subtext1-color;
+        text-align: center;
+        margin-bottom: auto;
+    }
+}
+
+.ctyhangdau4 {
+    background-color: #FFFFFF;
+    padding: 86px 0px;
+    &-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        max-width: 996px;
+        gap: 68px;
+        place-items: center;
+        margin: auto;
+    }
+}
+
+.ctyhangdau5 {
+    background: rgba(228, 243, 255, 0.22);
+    &-header {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 85px 0px;
+        margin-left: 115px;
+        width: 471px;
+    }
+    &-heading {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: $primary-color;
+    }
+    &-text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: $primary-color;
+    }
+    &-container {
+        margin-left: 185px;
+        padding-bottom: 133px;
+    }
+    &-item {
+        background: #FFFFFF;
+        box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.02), 0px 4px 28px rgba(0, 0, 0, 0.04);
+        border-radius: 10px;
+        max-width: 530px;
+        display: flex !important;
+        gap: 28px;
+        padding: 33px 35px;
+        margin: 0px 17px;
+    }
+    &-logo {
+        width: 76px; height: 76px;
+        margin: auto;
+    }
+    &-detail {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 18px;
+    }
+    &-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: $primary-color;
+        margin-bottom: 8px;
+    }
+}

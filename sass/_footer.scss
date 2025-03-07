@@ -1,0 +1,95 @@
+.footer {
+    background-color: $primary-color;
+    &-container {
+        padding-top: 84px;
+        padding-left: 55px;
+        padding-right: 55px;
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+        grid-gap: 50px;
+    }
+    &-contact {
+        padding-right: 90px;
+    }
+    &-channel {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 60px;
+        padding-top: 45px;
+        padding-bottom: 27px;
+    }
+    &-logo {
+        margin: 0 auto;
+        max-width: 32px;
+        width: 100%;
+    }
+    &-hotline {
+        font-size: 16px;
+        font-weight: 300;
+        padding-bottom: 9px;
+    }
+    &-email {
+        font-size: 16px;
+        font-weight: 300;
+        padding-bottom: 45px;
+    }
+    &-button {
+        margin-right: 50px;
+        margin-bottom: 50px;
+        padding: 10px 30px;
+        border: 1px solid #FFFFFF;
+        border-radius: 28px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    &-download {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: calc(23/20);
+    }
+    &-heading {
+        padding-bottom: 36px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &-links {
+        list-style: none;
+
+    }
+    &-link {
+        font-family: $font;
+        font-size: 14px;
+        font-weight: 100;
+        color: #FFFFFF;
+        line-height: calc(26/16);
+    }
+    &-line {
+        max-width: 1300px;
+        padding: 0 55px ;
+        padding-bottom: 22px;
+    }
+    &-copyright {
+        max-width: 482px;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: calc(23/13);
+    }
+    &-powered {
+        max-width: 93px;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: calc(26/13);
+    }
+    &-end {
+        margin: 0 55px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap: 200px;
+        padding-left: 350px;
+        padding-bottom: 25px;
+    }
+}

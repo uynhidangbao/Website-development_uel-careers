@@ -1,0 +1,38 @@
+.HNIntro {
+    background: rgba(228, 243, 255, 0.22);
+    &-container {
+        display: flex;
+        padding: 102px 100px;
+        gap: 130px;
+    }
+    &-logo {
+        max-width: 528px;
+        width: 100%;
+    }
+    &-heading {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 56px;
+        color: $primary-color;
+        margin-bottom: 38px;
+    }
+    &-highlight {
+        color: #FBB957;
+    }
+    &-detail {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        color: #212121;
+        margin-bottom: 38px;
+    }
+    &-button {
+        padding: 12px 13px;
+        background: #0A426E;
+        border-radius: 28px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
